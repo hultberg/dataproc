@@ -1,0 +1,16 @@
+{
+  "name": "edvin/dataproc",
+  "version": "v0.1.0",
+  "description": "A simple data processing library for PHP.",
+  "require": {
+    "psr/log": "^1.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hultberg\\DataProc\\": "src/"
+    }
+  }
+}
